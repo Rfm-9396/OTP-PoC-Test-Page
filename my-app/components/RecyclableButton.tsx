@@ -1,6 +1,10 @@
 import React from 'react';
 
-const RecyclableButton = ({ message }) => {
+type Props = {
+    message?: string;
+}
+
+const RecyclableButton: React.FunctionComponent<Props> = ({ message }) => {
     // Conditionally render the button content
     const renderButtonContent = () => {
         if (message) {

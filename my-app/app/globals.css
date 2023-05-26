@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label {
+    @apply block mb-2 text-sm text-white font-medium dark:text-white;
+  }
+  .input{
+    @apply rounded text-center text-gray-700 dark:text-gray-300 dark:bg-gray-700;
+  }
+}
+
+
+
